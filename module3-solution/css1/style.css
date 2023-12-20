@@ -1,38 +1,75 @@
-*{
-	margin: 0;
-	padding: 0;
-	
-}
-.navbar{
-
-border: none;
-background-color: black;
-color: #61122F;
-}
-body{
-	background-color: #61122F;
-	color: white;
-}
-.glyphicon{
-	font-size: 30px;
-	color:#61122F; 
-}
-
-.center{
-	width: 90%;
-	background-color: grey;
-
-}
-.container
+@font-face
 {
-	background-color: grey;
+	font-family: pointsoft;
+	src: url("Point Soft Semi Bold.otf") ;
 }
-.text-center{
-	font-size: 30px;
+body {
+  font-size: 16px;
+  color: rgba(34, 33, 33, 0.884);
+  background-color:white;
+  font-family: pointsoft;
 }
 
-h2{
-	text-align: center;
+#header-nav {
+  background-color:#999999;
+  border-radius: 0;
+  border: 1px;
+  min-height: 70px;
 }
-#myNavbar ul li a {
-	color: #61122F;
+
+.navbar-brand h1 {
+  font-family: pointsoft;
+  color: black;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color:black;
+  font-weight: bold;
+}
+
+#nav-list a:hover {
+  background:whitesmoke;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#page-title {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+#main-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-background {
+  height: auto;
+  padding: 20px 40px 20px 40px;
+  background-color:#999999;
+  overflow: hidden;
+}
+
+h3 {
+  font-weight: bold;
+}
+.footer-copyright{
+  padding: 50px;
+}
